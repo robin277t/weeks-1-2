@@ -6,6 +6,6 @@ RSpec.describe "tests" do
     end
 
     it "length test 1" do
-        expect(report_length("Geoffrey the hobo")).to eq "This string was 17 characters long."
+        expect(report_length("Geoffrey the hobo")).to eq "This string was characters long."
     end
 end

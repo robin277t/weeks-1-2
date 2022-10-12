@@ -4,10 +4,10 @@ class Counter
     end
   
     def add(num)
-      @count1 = @count + num
+      @count = @count + num
     end 
   
     def report
-      return "Counted to #{@count1} so far"
+      return "Counted to #{@count} so far"
     end
   end

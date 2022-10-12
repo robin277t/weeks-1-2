@@ -34,6 +34,6 @@ RSpec.describe Counter do
         counter = Counter.new()
         counter.add("str")   
         result = counter.report
-        expect(result).to eq "Counted to 0str"
+        expect(result).to eq "Counted to 0str so far"
     end
 end
